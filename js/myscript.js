@@ -4,7 +4,7 @@ let menuLink = document.querySelectorAll(".nav-link")
 let sections = document.querySelectorAll("section")
 
 circle[0].style = "background:var(--main-color)"
-sections[3].style="display: block !important;"
+sections[0].style="display: block !important;"
 
 menuLink[0].addEventListener("click" , () => {
    for(i=0;i<circle.length;i++){
